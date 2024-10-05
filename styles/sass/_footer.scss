@@ -1,0 +1,177 @@
+footer {
+    .bg-color{
+      padding: 100px 136px;
+      background-color: #292c32;
+
+      .img-footer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        .footer-text {
+          h3 {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.6px;
+            letter-spacing: 3px;
+            text-align: left;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            color: #b87d58;
+          }
+          p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            text-align: left;
+            color: #fff;
+            margin-bottom: 12px;
+            
+          }
+          .input-btn {
+            width: 458px;
+            height: 53px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            background-color: #f9fafb;
+            border-radius: 8px;
+            input {
+              width: 370px;
+              height: 53px;
+              padding-left: 18px;
+              border: none;
+              background-color: #f9fafb;
+              border-radius: 8px;
+            }
+            .btn6 {
+              width: 71px;
+              height: 40px;
+              border-radius: 10px;
+              border: none;
+              background-color: #292c32;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              text-align: left;
+              color: white;
+              padding-left: 8px;
+              cursor: pointer;
+              transition: 0.5s;
+              &:active {
+                scale: 0.9;
+              }
+              &:hover {
+                background-color: #b87d58;
+              }
+            }
+          }
+        }
+
+
+        .footer-text_end {
+            width: 404px;
+            h3 {
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 19.6px;
+              letter-spacing: 3px;
+              text-align: left;
+              margin-top: 30px;
+              margin-bottom: 12px;
+              color: #b87d58;
+            }
+            p {
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              text-align: left;
+              color: #fff;
+              margin-bottom: 12px;
+              
+            }
+            .input-btn {
+              width: 458px;
+              height: 53px;
+              display: flex;
+              gap: 5px;
+              align-items: center;
+              background-color: #f9fafb;
+              border-radius: 8px;
+              input {
+                width: 370px;
+                height: 53px;
+                padding-left: 18px;
+                border: none;
+                background-color: #f9fafb;
+                border-radius: 8px;
+              }
+              .btn6 {
+                width: 71px;
+                height: 40px;
+                border-radius: 10px;
+                border: none;
+                background-color: #292c32;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.4px;
+                text-align: left;
+                color: white;
+                padding-left: 8px;
+                cursor: pointer;
+                transition: 0.5s;
+                &:active {
+                  scale: 0.9;
+                }
+                &:hover {
+                  background-color: #b87d58;
+                }
+              }
+            }
+          }
+
+
+      }
+      .footer-end-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        
+        p {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          text-align: left;
+          color: white;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+      }
+  }
+}
+@media (max-width: 925px) {
+    .footer-content {
+      display: none !important;
+      padding: none ;
+    }
+}
+@media (max-width:808px) {
+    .bg-color{
+        padding: 10px !important;
+    }
+}
